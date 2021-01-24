@@ -102,6 +102,7 @@ public class BankAccount {
             }
             catch(NullPointerException npex) {
                 System.err.println("Null pointer Exception, esc key pressed");
+                return;
             }
         } while(!doneAccountName);
         
